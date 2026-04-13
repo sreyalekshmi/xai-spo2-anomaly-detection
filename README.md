@@ -54,19 +54,34 @@ SHAP Explainability (TreeSHAP — beeswarm + waterfall plots per patient)
 
 ## Repository Structure
 
-```
-├── notebooks/          # Step-by-step Jupyter notebooks
-├── src/                # Modular Python source code
-│   ├── preprocessing.py
-│   ├── features.py
-│   ├── model.py
-│   └── explain.py
-├── results/figures/    # SHAP beeswarm, waterfall, anomaly timeline plots
-├── data/               # Dataset instructions (raw data not committed)
-└── paper/citation.bib  # BibTeX reference
+## 📁 Repository Structure
+
+```plaintext
+xai-spo2-anomaly-detection/
+│
+├── data/
+│   └── raw/
+│       ├── 3D_Patient_Oxygen_Data.csv
+│       └── pattern-analysis-of-oxygen-saturation-variability-1.0.0/
+│
+├── notebooks/
+│   └── anomaly_detection_spo2.ipynb
+│
+├── results/
+│   ├── anamoly_score_patient_160217C.png
+│   ├── beeswarm.png
+│   ├── dist of spo2 reading.png
+│   └── waterfall.png
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
----
+
+
+
+
 
 ## Results & Visualisations
 
