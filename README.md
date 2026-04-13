@@ -89,13 +89,13 @@ xai-spo2-anomaly-detection/
 > The `diff` (rate of change) feature contributes most to anomaly detection,
 > significantly outweighing raw SpO2 threshold values.
 
-![SHAP Beeswarm](results/figures/shap_beeswarm.png)
+![SHAP Beeswarm](results/beeswarm.png)
 
 ### Anomaly Detection vs. Static Threshold
 > 46 anomalous events detected within the clinically "normal" 95–97% range —
 > none of which would be flagged by a standard 90% alert.
 
-![Anomaly Detection](results/figures/anomaly_timeline.png)
+![Anomaly Detection](results/anamoly_score_patient_160217C.png)
 
 ---
 
